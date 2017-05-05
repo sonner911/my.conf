@@ -1,0 +1,18 @@
+[core]
+	autocrlf = input
+	safecrlf = true
+[push]
+	default = simple
+[user]
+	name = 
+	email = 
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	aa = add --all
+	dc = diff --cached
+[color]
+	ui = true
