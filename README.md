@@ -1,9 +1,8 @@
 # Manual configuration
 
 ## ~/.zshrc
+Set `plugins` array if needed (beyond git and vi-mode)
 Add `source "$HOME/.my.conf/zshrc"`
-
-Set theme to `mine`
 
 ## ~/.profile
 Include `source ~/.my.conf/bash_profile`
@@ -13,9 +12,6 @@ Add `source ~/.profile`
 
 ## ~/.shellrc
 Put common initialization for Bash and Z shell
-
-## Customize Oh my Zsh
-`ln -s ~/.my.conf/zsh_custom ~/.oh-my-zsh/custom`
 
 ## Git configuration
 Add this to `~/.gitconfig`:
